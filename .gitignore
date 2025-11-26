@@ -1,0 +1,21 @@
+
+# My venv dirs
+l_env/
+w_env/
+
+# Ignore the cache
+cache/
+
+# Ignore the spam folder
+archive/
+
+# Obviously this too
+.env
+test_server.py
+
+# Ignore the models module, get it from somewhere else.
+ESIProxy/models/
+
+# Some stuff
+__pycache__/
+*.code-workspace
