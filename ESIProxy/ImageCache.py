@@ -8,7 +8,8 @@ import logging
 from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
-from models.cache_meta import ImageCacheMetadata, init_db
+
+from rokh.cache_meta import ImageCacheMetadata, init_db
 
 # Define project root (goes up from ESIProxy/ to project root)
 PROJECT_ROOT = Path(__file__).parent.parent

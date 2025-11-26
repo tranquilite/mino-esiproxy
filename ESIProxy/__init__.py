@@ -1,6 +1,6 @@
 from .ESIAbstraction import ESIAbstraction
 from .ImageCache import ImageCache
-from models.cache_meta import (
+from rokh.cache_meta import (
     CacheMetadata,
     RateLimitBucket,
     ErrorLimitTracker,

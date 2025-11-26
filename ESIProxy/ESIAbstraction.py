@@ -8,9 +8,10 @@ import requests
 import logging
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from models.cache_meta import CacheMetadata, RateLimitBucket, ErrorLimitTracker, EndpointConfig as EndpointConfigModel, init_db
 import time
 import re
+
+from rokh.cache_meta import CacheMetadata, RateLimitBucket, ErrorLimitTracker, EndpointConfig as EndpointConfigModel, init_db
 
 # Define project root (goes up from ESIProxy/ to project root)
 PROJECT_ROOT = Path(__file__).parent.parent
